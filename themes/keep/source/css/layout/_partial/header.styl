@@ -578,3 +578,30 @@ $mobile-menu-icon-wrap-margin = 0.4rem
 .show-header-drawer {
   overflow hidden
 }
+
+
+@keyframes grow-69a3f4dd
+  0%
+    stroke-dashoffset: 1px
+    stroke-dasharray: 0 350px
+    opacity: 0
+
+  10%
+    opacity: 1
+
+  40%
+    stroke-dasharray: 350px 0
+
+  85%
+    stroke-dasharray: 350px 0
+
+  95%,to
+    stroke-dasharray: 0 350px
+
+.path1
+  stroke-dashoffset: 1px
+  stroke-dasharray: 350px 0
+  animation: grow-69a3f4dd 10s ease forwards infinite
+  transform-origin: center
+  stroke: #303030
+  animation-delay: 0s

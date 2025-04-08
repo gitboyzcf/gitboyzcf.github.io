@@ -21,10 +21,10 @@ base_info:
   avatar: /images/avatar.svg
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/logo.svg
+  logo: /images/my.svg
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/logo.svg
+  favicon: /images/my.svg
 
 
 # ---------------------------------------------------------------------------------------
@@ -34,15 +34,14 @@ base_info:
 # e.g. to enable categories, you need to execute `hexo new page categories`
 # Use `||` to set icon for navigation menu, e.g. `home: / || fa-solid fa-home`
 menu:
-  首页: /                        || fa-solid fa-home
-  归档: /archives                || fa-solid fa-box-archive
-  # 分类: /tags                   || fa-solid fa-tags
-  # categories: /categories     # || fa-solid fa-layer-group
+  home: /                       # || fa-solid fa-home
+  archives: /archives           # || fa-solid fa-box-archive
+  tags: /tags                 # || fa-solid fa-tags
+  categories: /categories     # || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
-  工具: /tools                || fa-solid fa-tools
-  关于: /about                || fa-solid fa-user-graduate
-  # ......
+  tools: /tools               # || fa-solid fa-tools
+  about: /about               # || fa-solid fa-user-graduate
 
 
 # ---------------------------------------------------------------------------------------
@@ -76,8 +75,8 @@ social_contact:
     # at the same time change your link to the image link.
     # e.g. `weixin: img | ./images/qrcode.png`
     github: https://github.com/gitboyzcf         # GitHub
-    weixin: wxboyzcf         # WeChat
-    qq: "2945482076"              # QQ
+    weixin: img | /images/WeChat.png         # WeChat
+    qq: img | /images/qq.png         # QQ
     weibo:           # WeiBo
     zhihu:           # ZhiHu
     twitter:         # Twitter
@@ -91,7 +90,7 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 scroll:
   # Show progress bar in top when page scroll
-  progress_bar: false  # Option values: true | false
+  progress_bar: true  # Option values: true | false
 
   # Show percent when page scroll
   percent: false       # Option values: true | false
@@ -108,13 +107,14 @@ home:
   announcement:
 
   # Show category in home page post block
-  category: false           # Option values: true | false
+  category: true           # Option values: true | false
 
   # Show tags in home page post block
-  tag: false                # Option values: true | false
+  tag: true                # Option values: true | false
 
   # Set the datetime type of home page post block
   post_datetime: updated    # Option values: updated | created
+  post_datetime_format: YYYY年MM月DD日 HH:mm:ss
 
 
 # ---------------------------------------------------------------------------------------
@@ -136,24 +136,24 @@ post:
   # Depend on Hexo Plugin: hexo-wordcount (`npm install hexo-wordcount`)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    wordcount: false     # Word count, one post. Option values: true | false
-    min2read: false      # Time to read, one post. Option values: true | false
+    wordcount: true     # Word count, one post. Option values: true | false
+    min2read: true      # Time to read, one post. Option values: true | false
 
   # Post datetime
-  datetime_format: "YYYY-MM-DD HH:mm:ss"  # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
+  datetime_format: "YYYY 年 MM 月 DD 日 HH:mm:ss"  # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
 
   # Post copyright info
-  copyright_info: false  # Option values: true | false
+  copyright_info: true  # Option values: true | false
 
   # Post share
-  share: false           # Option values: true | false
+  share: true           # Option values: true | false
 
   # Reward author
   reward:
-    enable: false        # Option values: true | false
-    img_link:            # Image link for the payment QR code
-    text:                # Custom reward text, Can be null
-    icon:                # Custom reward icon, Can be null
+    enable: true        # Option values: true | false
+    img_link: /images/reward.png            # Image link for the payment QR code
+    text: 给作者来一杯卡布奇诺☕️               # Custom reward text, Can be null
+    icon: fa-regular fa-heart               # Custom reward icon, Can be null
 
 
 # ---------------------------------------------------------------------------------------
@@ -162,22 +162,22 @@ post:
 code_block:
   # Toolbar include: "code copy", "code block collapse" and "code language"
   tools:
-    enable: false            # Option values: true | false
+    enable: true            # Option values: true | false
     style: default           # Option values: default | mac
-  highlight_theme: default   # Option values: default | obsidian
+  highlight_theme: obsidian   # Option values: default | obsidian
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/toc.html
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
 
   # Automatically add list number to toc
   number: false      # Option values: true | false
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
-  expand_all: false  # Option values: true | false
+  expand_all: true  # Option values: true | false
 
   # If true, auto open TOC every time when you enter post page
   init_open: true    # Option values: true | false
@@ -193,10 +193,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false     # Option values: true | false
+    enable: true     # Option values: true | false
     site_uv: false    # Option values: true | false
     site_pv: false    # Option values: true | false
-    page_pv: false    # Option values: true | false
+    page_pv: true    # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -205,16 +205,16 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false   # Option values: true | false
-  preload: false  # Preload the search data when the page loads. Option values: true | false
+  enable: true   # Option values: true | false
+  preload: true  # Preload the search data when the page loads. Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false   # Option values: true | false
-  use: valine     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
+  enable: true   # Option values: true | false
+  use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
   # See: https://github.com/xCss/Valine
@@ -257,11 +257,11 @@ comment:
   #      https://giscus.app
   # Please generate your configuration items in https://giscus.app
   giscus:
-    repo:
-    repo_id:
-    category: Announcements    # Recommend use Announcements
-    category_id:
-    reactions_enabled: false   # Option values: true | false
+    repo: gitboyzcf/gitboyzcf.github.io
+    repo_id: R_kgDOOPaXqQ
+    category: Q&A    # Recommend use Announcements
+    category_id: DIC_kwDOOPaXqc4Co4UO
+    reactions_enabled: true   # Option values: true | false
 
   # Artalk
   # See: https://github.com/ArtalkJS/Artalk
@@ -281,14 +281,14 @@ comment:
 # See: https://github.com/hexojs/hexo-generator-feed
 # ---------------------------------------------------------------------------------------
 rss:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/lazyload.html
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -303,20 +303,20 @@ cdn:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/pjax.html
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/footer.html
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020            # The starting year of your website, Can be null
+  since: 2025            # The starting year of your website, Can be null
   word_count: false      # Option values: true | false
 
   site_deploy:
-    enable: false        # Option values: true | false
+    enable: true        # Option values: true | false
     provider: github     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
-    url:                 # Your deployment provider url, Can be null
+    url: https://github.com/                # Your deployment provider url, Can be null
 
   record:
     enable: false        # Option values: true | false
@@ -332,7 +332,7 @@ footer:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html
 # ---------------------------------------------------------------------------------------
 inject:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
   css:
     -
     # e.g.
@@ -342,6 +342,6 @@ inject:
   js:
     -
     # e.g.
-    # - /js/custom-1.js
+    - /js/run-day.js
     # - /js/custom-2.js
     # - ...
