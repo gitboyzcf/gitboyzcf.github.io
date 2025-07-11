@@ -35,13 +35,13 @@ export const SOCIALS: Social[] = [
   // },
   {
     name: "QQ",
-    href: "./assets/images/qq.png",
+    href: "/assets/qq.png",
     linkTitle: `${SITE.title} on QQ`,
     icon: IconQQ,
   },
   {
     name: "WeChat",
-    href: "./assets/images/wechat.png",
+    href: "/assets/wechat.png",
     linkTitle: `${SITE.title} on WeChat`,
     icon: IconWechat,
   },

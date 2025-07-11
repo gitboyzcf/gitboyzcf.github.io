@@ -4,7 +4,7 @@ export const SITE = {
   profile: "/about",
   desc: "Vue, VuePress, React, Vuex, Vue-router, Vue-cli, Vuepress,Piain, blog, uniapp,uni-app, npm, node, 前端, 移动端, 后端",
   title: "Boyzcf's Blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "/mp-og.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,

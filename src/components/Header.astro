@@ -43,7 +43,11 @@ const isActive = (path: string) => {
         href="/"
         class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
       >
-        <svg class="w-10 inline" xmlns="http://www.w3.org/2000/svg" viewBox="23.4 27.04 35.2 40.56">
+        <svg
+          class="inline w-10"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="23.4 27.04 35.2 40.56"
+        >
           <path
             class="path1 stroke-[#012c56] dark:stroke-[#fff]"
             d="M 25 31 Q 24 36 45 32 Q 33 37 24 49 Q 38 43 24 67 Q 43 35 43 45 Q 42 38 35 52 Q 33 59 46 47 Q 58 25 58 28 Q 58 25 46 47 Q 39 61 43 61 Q 46 61 46 49 Q 45 47 53 46"
@@ -86,11 +90,19 @@ const isActive = (path: string) => {
             </a>
           </li>
           <li class="col-span-2">
+            <a
+              href="/archives"
+              class:list={{ "active-nav": isActive("/archives") }}
+            >
+              归档
+            </a>
+          </li>
+          <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
               关于
             </a>
           </li>
-          {
+          <!-- {
             SITE.showArchives && (
               <li class="col-span-2">
                 <LinkButton
@@ -105,11 +117,11 @@ const isActive = (path: string) => {
                   title="Archives"
                 >
                   <IconArchive class="hidden sm:inline-block" />
-                  <span class="sm:sr-only">Archives</span>
+                  <span class="sm:sr-only">归档</span>
                 </LinkButton>
               </li>
             )
-          }
+          } -->
           <li class="col-span-1 flex items-center justify-center">
             <LinkButton
               href="/search"
