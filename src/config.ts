@@ -1,10 +1,10 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://gitboyzcf.github.io/", // replace this with your deployed domain
   author: "boyzcf",
   profile: "/about",
   desc: "Vue, VuePress, React, Vuex, Vue-router, Vue-cli, Vuepress,Piain, blog, uniapp,uni-app, npm, node, 前端, 移动端, 后端",
   title: "Boyzcf's Blog",
-  ogImage: "/mp-og.png",
+  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: false,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://gitboyzcf.github.io/edit/main/",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
