@@ -8,12 +8,9 @@ import Card from "@/components/Card.astro";
 import getPostsByGroupCondition from "@/utils/getPostsByGroupCondition";
 import { SITE } from "@/config";
 
-// Redirect to 404 page if `showArchives` config is false
-if (!SITE.showArchives) {
-  return Astro.redirect("/404");
-}
-
-const posts = await getCollection("blog", ({ data }) => !data.draft);
+const posts = await getCollection("blog", ({ data }) => {
+  return !data.draft && data.tags.includes("前端面试");
+});
 
 const months = [
   "一月",
@@ -31,9 +28,9 @@ const months = [
 ];
 ---
 
-<Layout title={`归档 | ${SITE.title}`}>
+<Layout title={`面试 | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="归档" pageDesc="归档的所有文章">
+  <Main pageTitle="面试" pageDesc="面试的所有文章">
     {
       Object.entries(
         getPostsByGroupCondition(posts, post =>
@@ -43,8 +40,9 @@ const months = [
         .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
         .map(([year, yearGroup]) => (
           <div>
-            <span class="text-2xl font-bold">{year}</span>
-            <sup class="text-sm">{yearGroup.length}</sup>
+            <span class="text-2xl font-bold">{yearGroup[0].data.tags[1]}</span>
+            {/* <span class="text-2xl font-bold">{year}</span> */}
+            {/* <sup class="text-sm">{yearGroup.length}</sup> */}
             {Object.entries(
               getPostsByGroupCondition(
                 yearGroup,
@@ -55,23 +53,14 @@ const months = [
               .map(([month, monthGroup]) => (
                 <div class="flex flex-col sm:flex-row">
                   <div class="mt-6 min-w-36 text-lg sm:my-6">
+                    <span class="text-2xl">{year}</span>
                     <span class="font-bold">{months[Number(month) - 1]}</span>
                     <sup class="text-xs">{monthGroup.length}</sup>
                   </div>
                   <ul>
-                    {monthGroup
-                      .sort(
-                        (a, b) =>
-                          Math.floor(
-                            new Date(b.data.pubDatetime).getTime() / 1000
-                          ) -
-                          Math.floor(
-                            new Date(a.data.pubDatetime).getTime() / 1000
-                          )
-                      )
-                      .map(data => (
-                        <Card {...data} />
-                      ))}
+                    {monthGroup.map(data => (
+                      <Card {...data} />
+                    ))}
                   </ul>
                 </div>
               ))}
