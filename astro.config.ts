@@ -22,7 +22,6 @@ export default defineConfig({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
     }),
   ],
-
   markdown: {
     remarkPlugins: [[remarkToc, { heading: '目录' }], [remarkCollapse, { test: "目录", summary: '点击展开' }]],
     shikiConfig: {
