@@ -12,7 +12,7 @@ const posts = await getCollection("blog", ({ data }) => {
   return !data.draft;
 });
 
-const interviews = await getPostsByTag(posts, "前端面试").sort((a, b) => {
+const interviews = getPostsByTag(posts, "前端面试").sort((a, b) => {
   return a.data.pubDatetime.getTime() - b.data.pubDatetime.getTime();
 });
 
