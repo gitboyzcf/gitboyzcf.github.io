@@ -1,15 +1,20 @@
 @import "tailwindcss";
 @import "./typography.css";
 
+@font-face {
+  font-family: MarukoGothicCJKjp-Regular;
+  src: url(../assets/fonts/MarukoGothicCJKjp-Regular.woff2) format("woff2");
+}
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 :root,
 html[data-theme="light"] {
-  --background: #f6eee1;
-  --foreground: #012c56;
-  --accent: #61afef;
-  --muted: #efd8b0;
-  --border: #dc9891;
+  --background: #f2f5ec;
+  --foreground: #353538;
+  --accent: #1158d1;
+  --muted: #bbc789;
+  --border: #7cadff;
 }
 
 html[data-theme="dark"] {
@@ -26,28 +31,34 @@ html[data-theme="dark"] {
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --font-display: "MarukoGothicCJKjp-Regular";
 }
 
 @layer base {
   * {
-    @apply border-border outline-accent/75;
+    @apply border-border outline-accent/75 font-display;
     scrollbar-width: auto;
     scrollbar-color: var(--color-muted) transparent;
   }
+
   html {
     @apply overflow-y-scroll scroll-smooth;
   }
+
   body {
     @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
   }
+
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
   }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
   }
+
   section,
   footer {
     @apply mx-auto max-w-app px-4;

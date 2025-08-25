@@ -117,9 +117,9 @@ export const SHARE_LINKS: Social[] = [
 export const GISCUS: GiscusProps = {
   repo: "gitboyzcf/gitboyzcf.github.io",
   repoId: "R_kgDOObiD2g",
-  category: "Announcements",
-  categoryId: "DIC_kwDOObiD2s4CpOUb",
-  mapping: "title",
+  category: "General",
+  categoryId: "DIC_kwDOObiD2s4CpOUc",
+  mapping: "pathname",
   reactionsEnabled: "1",
   emitMetadata: "0",
   inputPosition: "top",
