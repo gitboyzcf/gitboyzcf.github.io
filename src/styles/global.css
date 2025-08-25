@@ -3,7 +3,8 @@
 
 @font-face {
   font-family: MarukoGothicCJKjp-Regular;
-  src: url(../assets/fonts/MarukoGothicCJKjp-Regular.woff2) format("woff2");
+  font-display: swap;
+  src: url(../assets/fonts/MarukoGothicCJKsc-Regular.woff2) format("woff2");
 }
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
