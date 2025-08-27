@@ -1,0 +1,14 @@
+{
+  "dateFormat": "yyyy-MM-dd HH:mm:ss",
+  "enableCreateTime": false,
+  "headerUpdated": "modDatetime",
+  "headerCreated": "pubDatetime",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "src/data/blog/2025/2025-04-28Go语言基础.md": "29dac4de1f3a79c55b5d7f8b13d07235dd81f794a98a07a3d5a98d99850fcc96",
+    "src/data/blog/2025/2025-08-21面试白话.md": "58a1a56879e53e7f3ee787c1c4ee4f8a7979390a7c70d2d8a7fcd6a7e9585bc3"
+  }
+}
