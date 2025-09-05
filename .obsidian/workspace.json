@@ -6,42 +6,46 @@
       {
         "id": "c51105a38ff7bf14",
         "type": "tabs",
+        "dimension": 37.23252496433666,
         "children": [
           {
-            "id": "6b3c0e57a7fd03c4",
+            "id": "1dc5c60c58ac1897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "src/data/blog/2025/2025-08-21面试白话.md",
                 "mode": "source",
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "2025-08-21面试白话"
             },
-            "group": "7dfae70ba4d0e1f7"
+            "group": "fabb70732adee50f"
           }
         ]
       },
       {
-        "id": "20e29e2d0d8d2057",
+        "id": "5913881aa31846c6",
         "type": "tabs",
+        "dimension": 62.76747503566333,
         "children": [
           {
-            "id": "67a961ab7d6d4691",
+            "id": "8e21fa8625911f6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "src/data/blog/2025/2025-08-21面试白话.md",
                 "mode": "preview",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "2025-08-21面试白话"
             },
-            "group": "7dfae70ba4d0e1f7"
+            "group": "fabb70732adee50f"
           }
         ]
       }
@@ -100,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "859bf4bd604a7a67",
@@ -111,25 +114,6 @@
         "id": "3583ca60adbd965b",
         "type": "tabs",
         "children": [
-          {
-            "id": "ab62c7dff41c6adf",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "src/data/blog/2025/2025-03-03你不知道的 JavaScript 工具管理器 Volta.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "2025-03-03你不知道的 JavaScript 工具管理器 Volta 的反向链接列表"
-            }
-          },
           {
             "id": "f8bad085ad18f6d6",
             "type": "leaf",
@@ -165,13 +149,42 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/data/blog/2025/2025-08-21面试白话.md",
+                "file": "src/data/blog/2025/2025-09-02 taro 多端开发.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-08-21面试白话 的大纲"
+              "title": "2025-09-02 taro 多端开发 的大纲"
+            }
+          },
+          {
+            "id": "c490a4f83da3a083",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "cd0f2f8426937dca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/data/blog/2025/2025-09-02 taro 多端开发.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2025-09-02 taro 多端开发 的反向链接列表"
             }
           }
         ],
@@ -179,8 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 372.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,18 +206,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6b3c0e57a7fd03c4",
+  "active": "1dc5c60c58ac1897",
   "lastOpenFiles": [
+    "src/assets/images/2025/Pasted image 20250905115600.png",
+    "src/data/blog/2025/2025-09-02 taro 多端开发.md",
+    "src/template/模板.md",
+    "src/data/blog/2025/2025-02-28 Vue3结合OpenLayers加载GeoJson文件实现离线版世界地图.md",
+    "src/data/blog/2025/2025-02-26炫酷的CSS loading加载动画（拒绝废话版）.md",
+    "src/assets/images/2025/Pasted image 20250903165206.png",
+    "src/assets/images/2025/tarogif09031727.gif",
+    "src/assets/images/2025/Pasted image 20250902174127.png",
+    "src/assets/images/2025/Pasted image 20250903165147.png",
+    "Pasted image 20250903162943.png",
+    "src/assets/images/2025/Pasted image 20250903161255.png",
+    "src/assets/images/2025/Pasted image 20250902174450.png",
+    "src/assets/images/2025/Pasted image 20250903152708.png",
+    "src/assets/images/2025/Pasted image 20250903141138.png",
+    "src/assets/images/2025/Pasted image 20250903135800.png",
+    "src/data/blog/2025/2025-03-03你不知道的 JavaScript 工具管理器 Volta.md",
+    "src/data/blog/2025/2025-08-11React知识点总结.md",
     "src/data/blog/2025/2025-04-28Go语言基础.md",
     "src/data/blog/2025/2025-08-21 Git 常用命令.md",
     "src/data/blog/2025/2025-08-21面试白话.md",
-    "src/data/blog/2025/未命名.md",
     "未命名.canvas",
-    "src/data/blog/2025/2025-08-11React知识点总结.md",
-    "src/assets/images/AstroPaper-v3.png",
     "未命名 1.base",
     "未命名.base",
-    "src/assets/images/2025/Pasted image 20250826104221.png",
     "src/data/blog/2025/2025.md",
     "src/data/blog/2025/2025-8-21面试白话.md",
     "src/components/Comments.tsx",
@@ -216,19 +241,12 @@
     "node_modules/@pagefind",
     "node_modules/@resvg",
     "pnpm-lock.yaml.2281445436",
-    "src/assets/images/2025/Pasted image 20250819113643.png",
-    "AstroPaper-lighthouse-score.svg",
-    "src/data/blog/2025/2025-02-28 Vue3结合OpenLayers加载GeoJson文件实现离线版世界地图.md",
     "src/data/blog/2025/2025-02-28Vue项目上传GitHub 自动化部署页面（禁止废话版）.md",
     "src/data/blog/2025/2025-04-08用svg打造个人动态签名（禁止废话版）.md",
-    "src/assets/images/pub/rzyd.webp",
-    "src/template/模板.md",
     "2025-08-11.md",
     "src/data/blog/2025/2025-03-12前端更新部署代码后通知用户刷新（禁止废话版）.md",
-    "src/data/blog/2025/2025-03-03你不知道的 JavaScript 工具管理器 Volta.md",
     "未命名 1.canvas",
     "2025-07-31.md",
-    "src/assets/images/pub/clw.webp",
     "src/data/blog/interview/2025-07-22前端 Leader 面试.md"
   ]
 }

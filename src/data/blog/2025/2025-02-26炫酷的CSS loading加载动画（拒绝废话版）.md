@@ -1,17 +1,16 @@
 ---
 author: boyzcf
 pubDatetime: 2025-02-26 13:50:49
-modDatetime: 2025-02-26 13:50:49
+modDatetime: 2025-09-03 17:44:25
 title: 炫酷的CSS loading加载动画（拒绝废话版）
-slug: 
+slug:
 featured: false
 draft: false
 tags:
   - 前端
   - css
   - 拒绝废话
-description:
-  这是一组效果非常酷的纯CSS3炫酷预加载Loading指示器动画特效，使用:before和:after伪元素，以及CSS帧动画来完成各种不同的预加载指示器动画。
+description: 这是一组效果非常酷的纯CSS3炫酷预加载Loading指示器动画特效，使用:before和:after伪元素，以及CSS帧动画来完成各种不同的预加载指示器动画。
 ---
 
 ![禁止废话](../../../assets/images/pub/jjfh.webp)

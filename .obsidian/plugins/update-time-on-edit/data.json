@@ -9,6 +9,9 @@
   "enableExperimentalHash": false,
   "fileHashMap": {
     "src/data/blog/2025/2025-04-28Go语言基础.md": "29dac4de1f3a79c55b5d7f8b13d07235dd81f794a98a07a3d5a98d99850fcc96",
-    "src/data/blog/2025/2025-08-21面试白话.md": "58a1a56879e53e7f3ee787c1c4ee4f8a7979390a7c70d2d8a7fcd6a7e9585bc3"
+    "src/data/blog/2025/2025-08-21面试白话.md": "0ba4aaaa329456989e5adbc90712e78f9e6c82ba716715e0f2500895403c751d",
+    "src/data/blog/2025/2025-09-02 taro 多端开发.md": "2585bd1e57a63d00653fecd1e6fcbef8ddd1fd1db618c6cf59154dffc9b912b0",
+    "src/data/blog/2025/2025-02-26炫酷的CSS loading加载动画（拒绝废话版）.md": "848274dcd16ebc70e07beda4e5a8ed67342918c65796d2b3344e871d35a9793a",
+    "src/template/模板.md": "961ac065e9291c0507894f5cdc4582d0246a0d391eaf9aeed234576bf1eb8baa"
   }
 }
