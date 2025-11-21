@@ -4,48 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "c51105a38ff7bf14",
+        "id": "9b31f38b5a9051f9",
         "type": "tabs",
-        "dimension": 37.23252496433666,
         "children": [
           {
-            "id": "1dc5c60c58ac1897",
+            "id": "88611ffb3aebdaf0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "src/data/blog/2025/2025-08-21面试白话.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
+                "file": "src/assets/images/2025/Pasted image 20251119102557.png"
               },
-              "icon": "lucide-file",
-              "title": "2025-08-21面试白话"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251119102557"
             },
-            "group": "fabb70732adee50f"
+            "group": "3315cf535105084e"
           }
         ]
       },
       {
-        "id": "5913881aa31846c6",
+        "id": "5189e2e3b271a6f7",
         "type": "tabs",
-        "dimension": 62.76747503566333,
         "children": [
           {
-            "id": "8e21fa8625911f6e",
+            "id": "293b9d59c87e53ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "src/data/blog/2025/2025-08-21面试白话.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2025-08-21面试白话"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             },
-            "group": "fabb70732adee50f"
+            "group": "3315cf535105084e"
           }
         ]
       }
@@ -104,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "right": {
     "id": "859bf4bd604a7a67",
@@ -129,33 +124,17 @@
             }
           },
           {
-            "id": "85c6ea354c753f0a",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
             "id": "67d81fa270aa6189",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/data/blog/2025/2025-09-02 taro 多端开发.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-09-02 taro 多端开发 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -186,13 +165,28 @@
               "icon": "links-coming-in",
               "title": "2025-09-02 taro 多端开发 的反向链接列表"
             }
+          },
+          {
+            "id": "85c6ea354c753f0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 309.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,10 +200,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1dc5c60c58ac1897",
+  "active": "293b9d59c87e53ee",
   "lastOpenFiles": [
-    "src/assets/images/2025/Pasted image 20250905115600.png",
+    "src/assets/images/2025/Pasted image 20251119102557.png",
+    "src/assets/images/2025/Pasted image 20251119100453.png",
+    "src/assets/images/2025/Pasted image 20251030172126.png",
+    "src/assets/images/2025/Pasted image 20251030172239.png",
+    "src/data/blog/2025/2025-04-28Go语言基础.md",
+    "src/data/blog/2025/未命名.md",
+    "AstroPaper-lighthouse-score.svg",
+    "src/data/blog/2025/2025-08-21 Git 常用命令.md",
+    "src/data/blog/2025/2025-08-21面试白话.md",
     "src/data/blog/2025/2025-09-02 taro 多端开发.md",
+    "src/data/blog/2025/2025-09-05  .d.ts文件.md",
+    "未命名.md",
+    "src/data/blog/2025/2025-08-11React知识点总结.md",
+    "未命名.canvas",
+    "src/assets/images/2025/Pasted image 20250905115600.png",
     "src/template/模板.md",
     "src/data/blog/2025/2025-02-28 Vue3结合OpenLayers加载GeoJson文件实现离线版世界地图.md",
     "src/data/blog/2025/2025-02-26炫酷的CSS loading加载动画（拒绝废话版）.md",
@@ -217,18 +224,7 @@
     "src/assets/images/2025/tarogif09031727.gif",
     "src/assets/images/2025/Pasted image 20250902174127.png",
     "src/assets/images/2025/Pasted image 20250903165147.png",
-    "Pasted image 20250903162943.png",
-    "src/assets/images/2025/Pasted image 20250903161255.png",
-    "src/assets/images/2025/Pasted image 20250902174450.png",
-    "src/assets/images/2025/Pasted image 20250903152708.png",
-    "src/assets/images/2025/Pasted image 20250903141138.png",
-    "src/assets/images/2025/Pasted image 20250903135800.png",
     "src/data/blog/2025/2025-03-03你不知道的 JavaScript 工具管理器 Volta.md",
-    "src/data/blog/2025/2025-08-11React知识点总结.md",
-    "src/data/blog/2025/2025-04-28Go语言基础.md",
-    "src/data/blog/2025/2025-08-21 Git 常用命令.md",
-    "src/data/blog/2025/2025-08-21面试白话.md",
-    "未命名.canvas",
     "未命名 1.base",
     "未命名.base",
     "src/data/blog/2025/2025.md",

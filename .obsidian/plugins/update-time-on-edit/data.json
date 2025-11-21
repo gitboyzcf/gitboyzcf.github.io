@@ -8,10 +8,11 @@
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
-    "src/data/blog/2025/2025-04-28Go语言基础.md": "29dac4de1f3a79c55b5d7f8b13d07235dd81f794a98a07a3d5a98d99850fcc96",
-    "src/data/blog/2025/2025-08-21面试白话.md": "0ba4aaaa329456989e5adbc90712e78f9e6c82ba716715e0f2500895403c751d",
+    "src/data/blog/2025/2025-04-28Go语言基础.md": "09d3d73f0d6495cd6cc021cbfdb371b91d253a782cc370c4cd36af555a50803f",
+    "src/data/blog/2025/2025-08-21面试白话.md": "2b1b938fa2dd9c450dc556dcabbde9bdcf30fdabd49c619edef5f51949949278",
     "src/data/blog/2025/2025-09-02 taro 多端开发.md": "2585bd1e57a63d00653fecd1e6fcbef8ddd1fd1db618c6cf59154dffc9b912b0",
     "src/data/blog/2025/2025-02-26炫酷的CSS loading加载动画（拒绝废话版）.md": "848274dcd16ebc70e07beda4e5a8ed67342918c65796d2b3344e871d35a9793a",
-    "src/template/模板.md": "961ac065e9291c0507894f5cdc4582d0246a0d391eaf9aeed234576bf1eb8baa"
+    "src/template/模板.md": "961ac065e9291c0507894f5cdc4582d0246a0d391eaf9aeed234576bf1eb8baa",
+    "src/data/blog/2025/2025-09-05  .d.ts文件.md": "61a9297cdee081146437a0b1f30ccc2541cf71faabf1ebc09382b9f0c07d3afc"
   }
 }
