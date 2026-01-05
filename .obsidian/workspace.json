@@ -4,42 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9b31f38b5a9051f9",
+        "id": "fcf9ffc8793d7812",
         "type": "tabs",
         "children": [
           {
-            "id": "88611ffb3aebdaf0",
+            "id": "3ba39c236859167f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "src/assets/images/2025/Pasted image 20251119102557.png"
+                "file": "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251119102557"
-            },
-            "group": "3315cf535105084e"
-          }
-        ]
-      },
-      {
-        "id": "5189e2e3b271a6f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "293b9d59c87e53ee",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            },
-            "group": "3315cf535105084e"
+              "icon": "lucide-file",
+              "title": "2025-04-28Go语言基础、知识速查"
+            }
           }
         ]
       }
@@ -98,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5,
-    "collapsed": true
+    "width": 264.5
   },
   "right": {
     "id": "859bf4bd604a7a67",
@@ -115,12 +94,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/data/blog/2025/2025-03-03你不知道的 JavaScript 工具管理器 Volta.md",
+                "file": "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-03-03你不知道的 JavaScript 工具管理器 Volta 的出链列表"
+              "title": "2025-04-28Go语言基础、知识速查 的出链列表"
             }
           },
           {
@@ -129,12 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "2025-04-28Go语言基础、知识速查 的大纲"
             }
           },
           {
@@ -153,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/data/blog/2025/2025-09-02 taro 多端开发.md",
+                "file": "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-09-02 taro 多端开发 的反向链接列表"
+              "title": "2025-04-28Go语言基础、知识速查 的反向链接列表"
             }
           },
           {
@@ -186,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 234.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,30 +180,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "293b9d59c87e53ee",
+  "active": "3ba39c236859167f",
   "lastOpenFiles": [
+    "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md",
+    "src/data/blog/2025/2025-12-26 Redux 快速学习上手、简单易懂、知识速查.md",
+    "ReduxToolkit.md",
+    "AstroPaper-lighthouse-score.svg",
+    "src/assets/images/2025/Pasted image 20251226104205.png",
+    "src/assets/images/2025/Pasted image 20251229155103.png",
+    "src/assets/images/2025/ReduxDataFlowDiagram.BJJTlKEu.gif",
+    "src/assets/images/2025/Pasted image 20250905115600.png",
+    "src/assets/images/2025/redux-demo.gif",
+    "src/assets/images/2025/tarogif09031727.gif",
+    "src/assets/images/forrest-gump-quote.png",
+    "src/data/blog/2025/未确认 830436.crdownload",
+    "src/data/blog/2025/2025-09-05  .d.ts文件.md",
+    "src/data/blog/2025/2025-08-11React知识点总结.md",
     "src/assets/images/2025/Pasted image 20251119102557.png",
     "src/assets/images/2025/Pasted image 20251119100453.png",
-    "src/assets/images/2025/Pasted image 20251030172126.png",
-    "src/assets/images/2025/Pasted image 20251030172239.png",
-    "src/data/blog/2025/2025-04-28Go语言基础.md",
-    "src/data/blog/2025/未命名.md",
-    "AstroPaper-lighthouse-score.svg",
     "src/data/blog/2025/2025-08-21 Git 常用命令.md",
     "src/data/blog/2025/2025-08-21面试白话.md",
     "src/data/blog/2025/2025-09-02 taro 多端开发.md",
-    "src/data/blog/2025/2025-09-05  .d.ts文件.md",
     "未命名.md",
-    "src/data/blog/2025/2025-08-11React知识点总结.md",
     "未命名.canvas",
-    "src/assets/images/2025/Pasted image 20250905115600.png",
     "src/template/模板.md",
     "src/data/blog/2025/2025-02-28 Vue3结合OpenLayers加载GeoJson文件实现离线版世界地图.md",
     "src/data/blog/2025/2025-02-26炫酷的CSS loading加载动画（拒绝废话版）.md",
-    "src/assets/images/2025/Pasted image 20250903165206.png",
-    "src/assets/images/2025/tarogif09031727.gif",
-    "src/assets/images/2025/Pasted image 20250902174127.png",
-    "src/assets/images/2025/Pasted image 20250903165147.png",
     "src/data/blog/2025/2025-03-03你不知道的 JavaScript 工具管理器 Volta.md",
     "未命名 1.base",
     "未命名.base",
@@ -236,7 +218,6 @@
     "node_modules/@shikijs",
     "node_modules/@pagefind",
     "node_modules/@resvg",
-    "pnpm-lock.yaml.2281445436",
     "src/data/blog/2025/2025-02-28Vue项目上传GitHub 自动化部署页面（禁止废话版）.md",
     "src/data/blog/2025/2025-04-08用svg打造个人动态签名（禁止废话版）.md",
     "2025-08-11.md",
