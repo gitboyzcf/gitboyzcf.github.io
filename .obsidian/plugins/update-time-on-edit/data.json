@@ -14,6 +14,12 @@
     "src/template/模板.md": "961ac065e9291c0507894f5cdc4582d0246a0d391eaf9aeed234576bf1eb8baa",
     "src/data/blog/2025/2025-09-05  .d.ts文件.md": "61a9297cdee081146437a0b1f30ccc2541cf71faabf1ebc09382b9f0c07d3afc",
     "src/data/blog/2025/2025-12-26 Redux 快速学习上手、简单易懂、知识速查.md": "ffeba3fb109d75f791a8e73c31483d3ad63d0650bdccafae363ba18a8967340e",
-    "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md": "38a9e8062e0959fbb0d44573d57c185ea1c895537e489513e5c1e94c9f7014d2"
+    "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md": "10a773e2db5b4a71d02380d4ca5c67817dd90b248c9881d4c8a8ce68912d0875",
+    "src/data/blog/2026/2026-01-12  Go结合Gin框架开发Web.md": "8d643d62d9e262799d501533fbf488cff78022c22d3887e0f01aa5a33db17f2e",
+    "README.md": "7bcc5f918e8b8fa657c05295c4c394ebd42bf25de72998f88587b99ded86cbfe",
+    "CHANGELOG.md": "2857223a7be37f575d16f7aea29f02831c0392121422eefca2c5752d5932abc1",
+    "src/data/blog/2026/2026-03-10 Bun.js 入门指南.md": "7876c2c5bc0cb61820741a3be17f43e6f56e120be306a5324fee7b614b41d6f2",
+    "src/data/blog/2026/2026-04-28 会自我进化的 AI 助理Hermes Agent.md": "4dcd725f939a58d394d3711049ab281d4ed6a5eac47d88f9b12465b8b10ded09",
+    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md": "5b4c4c5cb92cf4623cec464b33e333a32ef9cb897a987e9ec0282a37175ad07d"
   }
 }

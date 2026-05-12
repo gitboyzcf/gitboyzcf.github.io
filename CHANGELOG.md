@@ -1,3 +1,6 @@
+---
+modDatetime: 2026-01-12 10:48:16
+---
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
