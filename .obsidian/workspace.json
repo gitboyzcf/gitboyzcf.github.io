@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e6a0cca790f13f75",
+        "id": "d3e632705db2266b",
         "type": "tabs",
         "children": [
           {
-            "id": "124db3586b151df4",
+            "id": "b45b9666106bbdd3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "AstroPaper-lighthouse-score.svg"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "AstroPaper-lighthouse-score"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"src/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 320.5
   },
   "right": {
     "id": "859bf4bd604a7a67",
@@ -107,13 +105,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "AstroPaper-lighthouse-score.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大纲"
+              "title": "AstroPaper-lighthouse-score 的大纲"
             }
           },
           {
@@ -158,13 +156,23 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
+          },
+          {
+            "id": "97346802568ba233",
+            "type": "leaf",
+            "state": {
+              "type": "mp-preview",
+              "state": {},
+              "icon": "eye",
+              "title": "公众号预览"
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 488.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,27 +183,41 @@
       "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": true,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "mp-publisher:打开公众号发布": false,
+      "hermes-console:Open Hermes Console": false
     }
   },
-  "active": "124db3586b151df4",
+  "active": "b45b9666106bbdd3",
   "lastOpenFiles": [
+    "__unconfig_astro.config.ts",
+    "README.md",
+    "src/data/blog/2026/2026-07-07 初识LangChain：给AI小白的第一本说明书.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门17 - 用Agent设计网站.md",
+    "src/assets/images/2026/langchain/p25_img1.png",
+    "src/assets/images/2026/langchain/p24_img1.png",
+    "src/assets/images/2026/langchain/p23_img1.png",
+    "src/assets/images/2026/langchain/p22_img1.png",
+    "src/assets/images/2026/langchain/p21_img1.png",
+    "src/assets/images/2026/langchain/p20_img1.png",
+    "src/assets/images/2026/langchain/p19_img1.png",
+    "src/assets/images/2026/langchain/p18_img1.png",
+    "src/assets/images/2026/langchain/p17_img1.png",
+    "src/assets/images/2026/langchain/p16_img1.png",
+    "src/assets/images/2026/langchain",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门16 - 七款AI编程工具对比.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门05 - 搭建产品原型.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门04 - 找到好点子.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门03 - 学会AI编程工具.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门02 - AI时代会说话就会编程.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门01 - 学习地图.md",
+    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md",
+    "src/data/blog/2026/2026-01-12  Go结合Gin框架开发Web.md",
     "CHANGELOG.md",
     "ReduxToolkit.md",
     "src/data/blog/2026/2026-03-10 Bun.js 入门指南.md",
-    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md",
-    "src/assets/images/2026/Pasted image 20260130162329.png",
-    "src/assets/images/2026/Pasted image 20260130165836.png",
-    "src/assets/images/2026/Pasted image 20260509134517.png",
-    "src/assets/images/2026/Pasted image 20260509133541.png",
-    "src/assets/images/2026/Pasted image 20260509151908.png",
-    "src/assets/images/2026/Pasted image 20260509151200.png",
-    "src/assets/images/2026/Pasted image 20260509135514.png",
-    "src/assets/images/2026/Pasted image 20260509135313.png",
-    "src/assets/images/2026/Pasted image 20260509135151.png",
-    "src/assets/images/2026/Pasted image 20260509133659.png",
     "src/data/blog/2026/2026-04-28 会自我进化的 AI 助理Hermes Agent.md",
-    "src/data/blog/2026/2026-01-12  Go结合Gin框架开发Web.md",
     "copilot/copilot-conversations/9.11_and_9.8,_which_is_bigger@20260313_162014.md",
     "未命名.md",
     "copilot/copilot-conversations/为我写一篇关于httpsbun.com的教学文章@20260310_101750.md",
@@ -207,17 +229,8 @@
     "copilot/copilot-custom-prompts/Remove URLs.md",
     "copilot/copilot-custom-prompts/Generate glossary.md",
     "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "src/data/blog/2025/2025-04-28Go语言基础、知识速查.md",
     "src/assets/images/2026",
     "src/data/blog/2026",
     "src/data/blog/2025/未确认 830436.crdownload",
@@ -225,7 +238,6 @@
     "未命名 1.base",
     "未命名.base",
     "src/components/Comments.tsx",
-    "node_modules/@typescript-eslint",
     "未命名 1.canvas"
   ]
 }

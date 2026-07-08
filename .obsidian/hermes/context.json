@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "source": "lean-obsidian-terminal",
+  "vaultPath": "D:\\project-group\\boyzcf.blog",
+  "bridgePath": "D:\\project-group\\boyzcf.blog/.obsidian/hermes/context.json",
+  "updatedAt": "2026-06-15T03:52:41.630Z",
+  "updateTimestamp": 1781495561630,
+  "submitSequence": 6,
+  "attach": {
+    "enabled": false
+  },
+  "terminal": {
+    "id": "terminal-1",
+    "title": "Hermes 1"
+  },
+  "context": null
+}

@@ -1,0 +1,87 @@
+{
+  "shellPath": "",
+  "startupCommand": "hermes",
+  "fontSize": 14,
+  "fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "lineHeight": 1,
+  "theme": "obsidian-dark",
+  "backgroundColor": "",
+  "cursorBlink": true,
+  "copyOnSelect": false,
+  "scrollback": 500000,
+  "ribbonIcon": "hermes-caduceus-wing",
+  "defaultLocation": "right",
+  "notifyOnHermesIdleInBackground": true,
+  "notificationSound": "beep",
+  "notificationVolume": 50,
+  "searchShortcut": "Ctrl+Alt+F",
+  "persistBuffer": true,
+  "recentSessionsMax": 10,
+  "recentSessions": [
+    {
+      "name": "Hermes 1",
+      "color": "",
+      "cwd": "D:\\project-group\\boyzcf.blog",
+      "bufferSerial": "Microsoft Windows [版本 10.0.26200.8655]     \r\n(c) Microsoft Corporation。保留所有权利。    \r\n\r\nD:\\project-group\\boyzcf.blog>hermes\r\n\r\n\u001b[38;2;205;127;50;1m╔═══════════════════════════════════════════╗\r\n║\u001b[0m \u001b[38;2;255;215;0m⚕ NOUS HERMES - AI Agent Framework      \u001b[38;2;205;127;50;1m║\u001b[0m  \r\n\u001b[38;2;205;127;50;1m║\u001b[0m \u001b[38;2;184;134;11;2mHermes Agent v0.\u001b[1m16.0\u001b[22;22m \u001b[1m(2026.6\u001b[22m.\u001b[1m5)\u001b[22m · upstr\u001b[0m \u001b[38;2;205;127;50;1m║\u001b[0m  \r\n\u001b[38;2;205;127;50;1m╚═══════════════════════════════════════════╝\r\n\r\n\u001b[0m  \u001b[32;1m●\u001b[0m \u001b[38;2;255;191;0mkimi-k2.\u001b[1m6\u001b[0m \u001b[38;2;184;134;11;2m·\u001b[0m \u001b[38;2;218;165;32;1m27 tools\u001b[0m \u001b[38;2;184;134;11;2m·\u001b[0m \u001b[38;2;218;165;32mtoolsets: browser,\r\nclarify, code_execution, computer_use,       \r\ncronjob, delegation, file, image_gen, kanban,\r\nmemory, messaging, session_search, skills,   \r\nterminal, todo, tts, vision, web \u001b[38;2;184;134;11;2m·\u001b[0m \u001b[2mprovider: \r\nkimi-coding\r\n\r\n\u001b[38;2;255;248;220;22mWelcome to Hermes Agent! Type your message or\r\n/help for commands.\r\n\u001b[38;2;184;134;11;2m✦ Tip: /redraw forces a full UI repaint, \u001b[0m    \r\n\u001b[38;2;184;134;11;2mfixing terminal drift after tmux resize or \u001b[0m  \r\n\u001b[38;2;184;134;11;2mmouse selection artifacts.\r\n\r\n\r\n\u001b[0m⚙️  /resume\r\n\r\n  Recent sessions:\r\n\r\n  #   Title                            Preview                                  Last Active   ID\r\n  ─── ──────────────────────────────── ──────────────────────────────────────── ───────────── ────────────────────────\r\n  1   Troubleshooting Hermes JSON-RPC Internal Error 我通过open design 客户端 调用你的agent 出现报错无法启动    2026-06-03    20260603_102519_43db4c\r\n  2   AI Assistant Skills Overview     你的技能都是哪些                                 2026-05-29    20260529_145759_5624b5\r\n  3   —                                你是                                       2026-05-21    20260521_151214_53089b\r\n\r\n  Use /resume <number>, /resume <session id>, or /resume <session title> to continue.     \r\n  Example: /resume 2\r\n\r\n  Usage: /resume <number|session_id_or_title>\r\n  ✓ Model switched: mimo-v2.5-pro\r\n    Provider: Xiaomi MiMo\r\n    Context: 1,048,576 tokens\r\n    Max output: 131,072 tokens\r\n    Cost: $1.00/M in, $3.00/M out, cache read $0.20/M\r\n    Capabilities: reasoning, tools, open weights\r\n    (session only — add --global to persist) \r\n\r\n\u001b[38;2;255;191;0m────────────────────────────────────────\r\n\u001b[1m●\r\n\u001b[39mhttps://datawhalechina.github.io/easy-vibe/zh\r\n-cn/stage-1/learning-map/ \r\n整理这一栏的零基础开发入门的教程 \r\n我要发布公众号连载 每个菜单就是一篇文章 \u001b[0m     \r\n\u001b[1m然后使用的自定义的模版 去补充我的blog\u001b[0m        \r\n\u001b[3;2mInitializing agent...\u001b[0m                        \r\n\u001b[38;2;255;191;0m────────────────────────────────────────     \r\n\u001b[0m                                             \r\n  ┊ 🌐 preparing browser_navigate…\r\n  ┊ 🌐 navigate  datawhalechina.github.io  5.0s\r\n  ┊ 📸 preparing browser_snapshot…\r\n  ┊ 📸 snapshot  full  0.4s\r\n  ┊ 📜 preparing browser_scroll…\r\n  ┊ ↓  scroll    down  0.4s\r\n  ┊ 📸 preparing browser_snapshot…\r\n  ┊ 📸 snapshot  full  0.4s\r\n  ┊ 👆 preparing browser_click…\r\n  ┊ 👆 click     e68  0.4s\r\n  ┊ 📸 preparing browser_snapshot…\r\n  ┊ 📸 snapshot  full  0.5s\r\n  ┊ 👆 preparing browser_click…\r\n  ┊ 👆 click     e21  0.5s\r\n  ┊ 📸 preparing browser_snapshot…\r\n  ┊ 📸 snapshot  full  0.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.5s\r\n  ┊ 📜 preparing browser_scroll…\r\n  ┊ ↓  scroll    down  0.4s\r\n  ┊ 📜 preparing browser_scroll…\r\n  ┊ ↓  scroll    down  0.4s\r\n  ┊ 📸 preparing browser_snapshot…\r\n  ┊ 📸 snapshot  full  0.4s\r\n  ┊ 💻 preparing terminal…\r\n  ┊ 💻 $         curl -s \"https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/learning-map/\" | head -200  5.3s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import json  1.9s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import json  1.9s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import json  1.8s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import re  1.6s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import requests  0.4s [Traceback (most recent call last):\r\n  File \"C...]\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import re  2.8s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import re  2.3s\r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m现在我已经提取到了完整的侧边栏结构。让我 看看你的博客项目结构，了解模板格式。\r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 🔎 preparing search_files…                \r\n  ┊ 🔎 find      *  27.5s\r\n  ┊ 🔎 preparing search_files…\r\n  ┊ 🔎 find      *.md  0.4s\r\n  ┊ 📖 preparing read_file…\r\n  ┊ 📖 read      D:\\project-group\\boyzcf.blog\\src\\template\\模板.md  0.9s\r\n  ┊ 📖 preparing read_file…\r\n  ┊ 📖 read      D:\\project-group\\boyzcf.blog\\src\\data\\blog\\2026\\2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信  接入.md  0.8s\r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m好的，我已经理解了你的博客结构。现在让我 批量抓取 Easy-Vibe 零基础入门的所有17篇文章内容，然后按你的模板格式生成博客文件。\r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 🐍 preparing execute_code…               \r\n  ┊ 🐍 exec      import subprocess  0.3s\r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import subprocess  0.5s     \r\n  ┊ 🐍 preparing execute_code…\r\n  ┊ 🐍 exec      import subprocess  0.5s     \r\n  ┊ 💻 preparing terminal…\r\n  ┊ 💻 $         curl -sL \"https://api.github.com/repos/datawhalechina/easy-vibe/contents/docs/zh-cn/stage-1\" 2>&1 | head -100  0.6s   \r\n  ┊ 💻 preparing terminal…\r\n  ┊ 💻 $         curl -v \"https://api.github.com\" 2>&1 | head -30  0.4s\r\n  ┊ 💻 preparing terminal…\r\n  ┊ 💻 $         curl --ssl-no-revoke -sL \"https://raw.githubusercontent.com/datawhalechina/easy-vibe/main/docs/zh-cn/stage-1/learning--map.md\" 2>&1 | head -50  17.2s [exit 124]    \r\n  ┊ 🌐 preparing browser_navigate…\r\n  ┊ 🌐 navigate  github.com  20.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🌐 preparing browser_navigate…\r\n  ┊ 🌐 navigate  github.com  3.5s\r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m让我换个思路，直接从 GitHub 仓库获取原始 Markdown 文件。\r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 🌐 preparing browser_navigate…            \r\n  ┊ 🌐 navigate  github.com  3.2s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🌐 preparing browser_navigate…\r\n  ┊ 🌐 navigate  api.github.com  1.4s        \r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🖥️ preparing browser_console…\r\n  ┊ ⚡ browser_c   0.4s\r\n  ┊ 🌐 preparing browser_navigate…\r\n  ┊ 🌐 navigate  raw.githubusercontent.com  30.5s [Failed to read: 由于连接方在一段时间后 没有正确答复或连接的主机没有反应，连...]\r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m网络连接有问题。让我改用浏览器从 Easy-Vibe 网站直接提取内容。我会分批处理这17篇文章。\r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 🔀 preparing delegate_task…              \r\n  ✓ [1/3] Navigate to https://datawhalechina.githu  (111.77s)\r\n  ✓ [3/3] Navigate to each of these 5 Easy-Vibe pa  (302.34s)\r\n  ✓ [2/3] Navigate to each of these 5 Easy-Vibe pa  (586.72s)\r\n  ┊ 🔀 delegate  3 parallel tasks  593.2s    \r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m前12篇已抓取完成。继续抓取剩余5篇。      \r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 🔀 preparing delegate_task…               \r\n  ✓ [2/2] Navigate to this Easy-Vibe page and extr  (141.38s)\r\n  ✓ [1/2] Navigate to each of these 5 Easy-Vibe pa  (225.55s)\r\n  ┊ 🔀 delegate  2 parallel tasks  234.0s    \r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m网络不稳定，已抓取了大部分内容。现在开始 创建博客文件，对未能抓取的几篇会基于已知信息 创建结构化草稿。\r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 🐍 preparing execute_code…                \r\n  ┊ 🐍 exec      import os  0.3s\r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m全部 17 篇博客文章已创建完成！让我验证一 下文件格式是否正确。\r\n\u001b[38;2;255;215;0;1m╰───────────────────────────────────────────╯\r\n\u001b[0m  ┊ 📖 preparing read_file…\r\n  ┊ 📖 read      D:\\project-group\\boyzcf.blog\\src\\data\\blog\\2026\\2026-06-15 Easy-Vibe 零基础入门01 - 学习地图.md  2.0s\r\n\r\n\u001b[38;2;255;215;0;1m╭─ ⚕ Hermes ────────────────────────────────╮\r\n\u001b[0m    \u001b[38;2;255;248;220m完成！以下是整理结果的汇总：\r\n\u001b[0m                                             \r\n    \u001b[38;2;255;248;220m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n\u001b[0m                                             \r\n    \u001b[38;2;255;248;220m📂 已创建 17 篇博客文章\r\n\u001b[0m    \u001b[38;2;255;248;220m📁 存放路径：D:\\project-group\\boyzcf.blog\\src\\data\\blog\\2026\\\r\n\u001b[0m                                             \r\n    \u001b[38;2;255;248;220m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\r\n\u001b[0m                                             \r\n    \u001b[38;2;255;248;220m【新手入门】2 篇\r\n\u001b[0m      \u001b[38;2;255;248;220m01. 学习地图 - 从创意到AI产品的完整路线图\r\n\u001b[0m      \u001b[38;2;255;248;220m02. AI时代会说话就会编程 - 贪吃蛇体验AI编程\r\n\u001b[0m                                             \r\n    \u001b[38;2;255;248;220m【产品原型实战】5 篇\r\n\u001b[0m      \u001b[38;2;255;248;220m03. 学会AI编程工具 - Trae本地开发环境搭建\r\n\u001b[0m      \u001b[38;2;255;248;220m04. 找到好点子 - 从用户需求到有人买单\r\n\u001b[0m      \u001b[38;2;255;248;220m05. 搭建产品原型 - 从业务分析到多页面应用\r\n\u001b[0m      \u001b[38;2;255;248;220m06. 接入AI能力 - DeepSeek/Seedream API 集成\r\n\u001b[0m      \u001b[38;2;255;248;220m07. 完整项目实战 - 从原型到毕业设计    \r\n\u001b[0m                                             \r\n    \u001b[38;2;255;248;220m【附录：业务思维】3 篇\r\n\u001b[0m      \u001b[38;2;255;248;220m08. 产品思维与方案设计 - 双钻模型/马斯 洛需求/冷启动\r\n\u001b[0m      \u001b[38;2;255;248;220m09. AI行业应用场景(B端) - 19个行业方向 \r\n\u001b[0m      \u001b[38;2;255;248;220m10. AI消费场景灵感(C端) - 16个场景方向 \r\n\r\n\u001b[0m    \u001b[38;2;255;248;220m【附录：用户研究与需求验证】4 篇\r\n\u001b[0m      \u001b[38;2;255;248;220m11. 从哪里找点子 - 3种最适合新手的参考 \r\n\u001b[0mMicrosoft Windows [版本 10.0.26200.Microsoft Windows [版本 10.0.26200.8737]\r\n(c) Microsoft Corporation。保留所有权利。\r\n\r\nD:\\project-group\\boyzcf.blog>      \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u001b[34A\u001b[29C\u001b[?2004h\u001b[?1004h",
+      "closedAt": 1783420055862
+    },
+    {
+      "name": "Hermes 1",
+      "color": "",
+      "cwd": "D:\\project-group\\boyzcf.blog",
+      "bufferSerial": "\r\n\u001b[33mConsole binaries not installed.\r\n\u001b[0mGo to Settings → Hermes Console to download them.\u001b[1B\u001b[6D",
+      "closedAt": 1781495274665
+    }
+  ],
+  "hermesSessionIntegration": true,
+  "hermesSessionsMax": 25,
+  "tabColorTintsBackground": true,
+  "tabColors": [
+    {
+      "name": "None",
+      "value": "",
+      "tintStrength": 0,
+      "builtin": true
+    },
+    {
+      "name": "Vermilion",
+      "value": "#FC3634",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Sky Blue",
+      "value": "#25D0F7",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Gold",
+      "value": "#FFD700",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Mint",
+      "value": "#18BC9C",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Azure",
+      "value": "#007BFF",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Purple",
+      "value": "#A991D4",
+      "tintStrength": 12,
+      "builtin": true
+    }
+  ],
+  "tabBarPosition": "top",
+  "verticalTabBarWidth": 220,
+  "wikiLinkAutocomplete": false,
+  "wikiLinkInsertMode": "wikilink"
+}

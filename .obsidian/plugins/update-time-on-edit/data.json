@@ -20,6 +20,14 @@
     "CHANGELOG.md": "2857223a7be37f575d16f7aea29f02831c0392121422eefca2c5752d5932abc1",
     "src/data/blog/2026/2026-03-10 Bun.js 入门指南.md": "7876c2c5bc0cb61820741a3be17f43e6f56e120be306a5324fee7b614b41d6f2",
     "src/data/blog/2026/2026-04-28 会自我进化的 AI 助理Hermes Agent.md": "4dcd725f939a58d394d3711049ab281d4ed6a5eac47d88f9b12465b8b10ded09",
-    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md": "5b4c4c5cb92cf4623cec464b33e333a32ef9cb897a987e9ec0282a37175ad07d"
+    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md": "5b4c4c5cb92cf4623cec464b33e333a32ef9cb897a987e9ec0282a37175ad07d",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门01 - 学习地图.md": "4d46de59a3da7ff5020a5dfee6b00b7c9dd47aa47b9da929263523e51885f22a",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门02 - AI时代会说话就会编程.md": "21c588ccdd8e196978671056ba3c997c1462da0c3e9fce4cedbe7543bd810f6e",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门03 - 学会AI编程工具.md": "047baacd59b5a77f17c7fcdaf8856bf941fcdc71a41e3dd63aef3190226282de",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门04 - 找到好点子.md": "a3e6ebac6344b50178d01289fccaac674148649f5ed4fec2fd5a9c36039076c6",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门05 - 搭建产品原型.md": "1a26c8dbb8c0105d322c22bfdd99309b29258032ad177c1d3bcbe8a00d277d09",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门16 - 七款AI编程工具对比.md": "12a5f868c440ae3a7badc2bf0df1ed987ed98e0ea2c3f901f5288356ea7c1c8f",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门17 - 用Agent设计网站.md": "ea012fc84daf1ddf2b35bdce3d18b858438413ca5e9772413c5b08f6c8036724",
+    "src/data/blog/2026/2026-07-07 初识LangChain：给AI小白的第一本说明书.md": "cc905ced1370050a1ddcb42fbe7dbf43c2fd02ad6a9b95b5c99588f21bee5bdb"
   }
 }
