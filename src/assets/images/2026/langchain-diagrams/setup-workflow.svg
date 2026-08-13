@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320">
+  <defs>
+    <linearGradient id="step1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="step4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="320" fill="#f8fafc"/>
+  
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">LangChain 开发环境搭建四步曲</text>
+  
+  <!-- Step 1 -->
+  <rect x="60" y="80" width="170" height="180" rx="12" fill="url(#step1)"/>
+  <circle cx="145" cy="115" r="20" fill="white" opacity="0.3"/>
+  <text x="145" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">1</text>
+  <text x="145" y="160" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">安装</text>
+  <text x="145" y="180" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Anaconda</text>
+  <text x="145" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Python 环境管家</text>
+  <!-- Arrow -->
+  <line x1="235" y1="170" x2="270" y2="170" stroke="#94a3b8" stroke-width="2" marker-end="url(#setupArrow)"/>
+  
+  <!-- Step 2 -->
+  <rect x="280" y="80" width="170" height="180" rx="12" fill="url(#step2)"/>
+  <circle cx="365" cy="115" r="20" fill="white" opacity="0.3"/>
+  <text x="365" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">2</text>
+  <text x="365" y="160" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">创建</text>
+  <text x="365" y="180" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">虚拟环境</text>
+  <text x="365" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">conda create ...</text>
+  <!-- Arrow -->
+  <line x1="455" y1="170" x2="490" y2="170" stroke="#94a3b8" stroke-width="2" marker-end="url(#setupArrow)"/>
+  
+  <!-- Step 3 -->
+  <rect x="500" y="80" width="170" height="180" rx="12" fill="url(#step3)"/>
+  <circle cx="585" cy="115" r="20" fill="white" opacity="0.3"/>
+  <text x="585" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">3</text>
+  <text x="585" y="160" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">安装</text>
+  <text x="585" y="180" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">LangChain</text>
+  <text x="585" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">pip install ...</text>
+  
+  <!-- Arrow -->
+  <line x1="675" y1="170" x2="710" y2="170" stroke="#94a3b8" stroke-width="2" marker-end="url(#setupArrow)"/>
+  
+  <!-- Step 4 -->
+  <rect x="720" y="80" width="170" height="180" rx="12" fill="url(#step4)"/>
+  <circle cx="805" cy="115" r="20" fill="white" opacity="0.3"/>
+  <text x="805" y="122" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">4</text>
+  <text x="805" y="160" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">PyCharm</text>
+  <text x="805" y="180" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="white">跑代码</text>
+  <text x="805" y="210" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Hello LangChain</text>
+  
+  <!-- Bottom note -->
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#64748b">整个过程大约 15-20 分钟，跟着做就能成功</text>
+  
+  <defs>
+    <marker id="setupArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

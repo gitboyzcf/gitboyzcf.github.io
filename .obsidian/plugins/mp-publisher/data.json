@@ -1,5 +1,5 @@
 {
-  "activeThemeId": "community-wechat-green",
+  "activeThemeId": "community-crimson-glow",
   "fontFamily": "Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, \"PingFang SC\", Cambria, Cochin, Georgia, Times, \"Times New Roman\", serif",
   "fontSize": 16,
   "customFonts": [
@@ -41,5 +41,7 @@
   "extractFromFrontmatter": false,
   "frontmatterTitleKey": "title",
   "frontmatterDescriptionKey": "description",
+  "frontmatterAuthorKey": "author",
+  "authorList": [],
   "showImageCaption": false
 }

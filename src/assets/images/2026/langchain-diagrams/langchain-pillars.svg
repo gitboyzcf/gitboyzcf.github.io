@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="45" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#1e293b">LangChain 家族四大支柱</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b">从基础能力到监控评估，完整覆盖 AI 应用生命周期</text>
+  
+  <!-- Layer 4: LangSmith -->
+  <rect x="150" y="90" width="500" height="80" rx="12" fill="url(#grad4)" stroke="#22c55e" stroke-width="2"/>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">LangSmith</text>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">监控 · 调试 · 评估 · 全链路追踪</text>
+  
+  <!-- Arrow -->
+  <line x1="400" y1="170" x2="400" y2="190" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Layer 3: Deep Agent -->
+  <rect x="150" y="200" width="500" height="80" rx="12" fill="url(#grad3)" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">Deep Agent</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">规划 · 子智能体 · 长期记忆 · 文件系统</text>
+  
+  <!-- Arrow -->
+  <line x1="400" y1="280" x2="400" y2="300" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Layer 2: LangGraph -->
+  <rect x="150" y="310" width="500" height="80" rx="12" fill="url(#grad2)" stroke="#f43f5e" stroke-width="2"/>
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">LangGraph</text>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">节点 · 边 · 状态 · 复杂工作流编排</text>
+  
+  <!-- Arrow -->
+  <line x1="400" y1="390" x2="400" y2="410" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Layer 1: LangChain -->
+  <rect x="150" y="420" width="500" height="70" rx="12" fill="url(#grad1)" stroke="#7c3aed" stroke-width="2"/>
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">LangChain</text>
+  <text x="400" y="475" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">模型调用 · 工具 · 中间件 · 基础能力</text>
+  
+  <!-- Side labels -->
+  <text x="670" y="455" font-family="Arial, sans-serif" font-size="13" fill="#475569" font-style="italic">基础能力层</text>
+  <text x="670" y="345" font-family="Arial, sans-serif" font-size="13" fill="#475569" font-style="italic">编排执行层</text>
+  <text x="670" y="235" font-family="Arial, sans-serif" font-size="13" fill="#475569" font-style="italic">智能体抽象层</text>
+  <text x="670" y="125" font-family="Arial, sans-serif" font-size="13" fill="#475569" font-style="italic">监控评估层</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d3e632705db2266b",
+        "id": "5af2d1a46e9940eb",
         "type": "tabs",
         "children": [
           {
-            "id": "b45b9666106bbdd3",
+            "id": "111c16ce940d9933",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "AstroPaper-lighthouse-score.svg"
+                "file": "src/data/blog/2026/2026-08-13 如何评价 DeepSeek V4 Pro.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "AstroPaper-lighthouse-score"
+              "icon": "lucide-file",
+              "title": "2026-08-13 如何评价 DeepSeek V4 Pro"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"src/\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 411.5,
+    "collapsed": true
   },
   "right": {
     "id": "859bf4bd604a7a67",
@@ -105,13 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroPaper-lighthouse-score.svg",
+                "file": "src/data/blog/2026/2026-08-13 如何评价 DeepSeek V4 Pro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "AstroPaper-lighthouse-score 的大纲"
+              "title": "2026-08-13 如何评价 DeepSeek V4 Pro 的大纲"
             }
           },
           {
@@ -166,13 +169,33 @@
               "icon": "eye",
               "title": "公众号预览"
             }
+          },
+          {
+            "id": "99f8c4f356007651",
+            "type": "leaf",
+            "state": {
+              "type": "terminal-view",
+              "state": {
+                "tabs": [
+                  {
+                    "name": "Hermes 1",
+                    "color": "",
+                    "cwd": "D:\\project-group\\boyzcf.blog",
+                    "bufferSerial": "Microsoft Windows [版本 10.0.26200.8737]\r\n(c) Microsoft Corporation。保留所有权 利。\r\n\r\nD:\\project-group\\boyzcf.blog>hermes\r\n\u001b[31;1mWarning: Unknown toolsets: messaging\r\n\r\n\u001b[38;2;205;127;50m╔════════════════════════════════════╗\r\n║\u001b[0m \u001b[38;2;255;215;0m⚕ NOUS HERMES - AI Agent Framewo \u001b[38;2;205;127;50;1m║\u001b[0m  \r\n\u001b[38;2;205;127;50;1m║\u001b[0m \u001b[38;2;184;134;11;2mHermes Agent v0.\u001b[1m18.2\u001b[22m \u001b[1m(2026.7\u001b[22m.\u001b[1m7.2\u001b[0m \u001b[38;2;205;127;50;1m║\u001b[0m  \r\n\u001b[38;2;205;127;50;1m╚════════════════════════════════════╝\r\n\r\n\u001b[0m  \u001b[32;1m●\u001b[0m \u001b[38;2;255;191;0mkimi-k2.\u001b[1m6\u001b[0m \u001b[38;2;184;134;11;2m·\u001b[0m \u001b[38;2;218;165;32;1m29 tools\u001b[0m \u001b[38;2;184;134;11;2m·\u001b[0m \u001b[38;2;218;165;32mtoolsets:  \r\nbrowser, clarify, code_execution,     \r\ncomputer_use, cronjob, delegation,    \r\nfile, image_gen, kanban, memory,      \r\nmessaging, session_search, skills,    \r\nterminal, todo, tts, vision, web \u001b[38;2;184;134;11;2m·\u001b[0m    \r\n\u001b[2mprovider: kimi-for-coding\r\n\r\n\u001b[38;2;255;248;220;22mWelcome to Hermes Agent! Type your    \r\nmessage or /help for commands.        \r\n\u001b[38;2;184;134;11;2m✦ Tip: browser_console can evaluate \u001b[0m  \r\n\u001b[38;2;184;134;11;2mJavaScript expressions in the page \u001b[0m   \r\n\u001b[38;2;184;134;11;2mcontext.\r\n\r\n\u001b[26C\u001b[38;2;104;57;47;22m▄\u001b[38;2;72;43;30;48;2;168;110;58m▀\u001b[38;2;82;48;37;49m▄\u001b[38;2;102;66;57m▄\u001b[38;2;96;60;58m▄\u001b[38;2;83;27;51;48;2;114;73;49m▀\u001b[38;2;102;53;53;48;2;144;93;54m▀\u001b[38;2;23;0;23;49m▄\u001b[0m    \r\n\u001b[25C\u001b[38;2;56;26;33m▄\u001b[38;2;77;36;39;48;2;175;123;76m▀\u001b[38;2;177;120;67;48;2;231;171;102m▀\u001b[38;2;205;149;89;48;2;224;165;101m▀\u001b[38;2;227;167;102;48;2;222;163;100m▀\u001b[38;2;225;167;100;48;2;224;164;100m▀\u001b[38;2;219;162;97;48;2;221;163;99m▀\u001b[38;2;183;133;79;48;2;231;171;104m▀\u001b[38;2;107;68;51;48;2;230;170;103m▀\u001b[38;2;137;94;66;49m▄\u001b[38;2;139;98;68m   \r\n\u001b[24C\u001b[0m \u001b[38;2;117;73;56;48;2;164;113;73m▀\u001b[38;2;237;176;103;48;2;232;173;103m▀\u001b[38;2;220;163;99;48;2;228;168;102m▀\u001b[38;2;225;165;100;48;2;153;114;73m▀\u001b[38;2;234;172;104;48;2;69;52;35m▀\u001b[38;2;223;164;100;48;2;213;156;94m▀\u001b[38;2;222;163;99;48;2;221;162;97m▀\u001b[38;2;212;154;92;48;2;182;124;69m▀\u001b[38;2;214;153;88;48;2;134;88;47m▀\u001b[38;2;217;155;90;48;2;151;101;54m▀\u001b[38;2;95;60;51;48;2;127;85;56m▀\u001b[0m  \r\n\u001b[24C\u001b[38;2;61;25;42;48;2;121;74;60m▀\u001b[38;2;198;141;83;48;2;216;156;90m▀\u001b[38;2;210;151;87;48;2;189;131;75m▀\u001b[38;2;229;168;101;48;2;212;153;90m▀\u001b[38;2;161;120;75;48;2;227;166;98m▀\u001b[38;2;74;55;36;48;2;232;170;102m▀\u001b[38;2;218;160;96;48;2;226;167;102m▀\u001b[38;2;210;152;90;48;2;207;149;88m▀\u001b[38;2;175;116;63;48;2;178;118;65m▀\u001b[38;2;140;95;52;48;2;148;100;55m▀\u001b[38;2;119;79;42;48;2;123;82;43m▀\u001b[38;2;152;103;63;48;2;160;108;63m▀\u001b[38;2;24;0;38;48;2;13;0;27m▀\u001b[0m \r\n\u001b[23C\u001b[38;2;97;54;60;48;2;73;34;37m▀\u001b[38;2;188;135;83;48;2;191;139;82m▀\u001b[38;2;220;157;90;48;2;186;128;73m▀\u001b[38;2;201;142;83;48;2;203;143;82m▀\u001b[38;2;208;150;89;48;2;224;163;97m▀\u001b[38;2;221;163;99;48;2;225;164;99m▀\u001b[38;2;218;161;98;48;2;219;161;98m▀\u001b[38;2;223;165;101;48;2;222;163;101m▀\u001b[38;2;212;153;91;48;2;223;164;99m▀\u001b[38;2;175;116;64;48;2;198;140;81m▀\u001b[38;2;146;97;53;48;2;186;128;70m▀\u001b[38;2;161;108;57;48;2;144;97;55m▀\u001b[38;2;139;90;54;48;2;66;35;35m▀\u001b[38;2;23;0;38;49m▀\u001b[0m \r\n\u001b[21C\u001b[38;2;28;0;33m▄\u001b[38;2;120;93;70;48;2;190;143;91m▀\u001b[38;2;184;161;103;48;2;221;174;102m▀\u001b[38;2;193;170;109;48;2;227;173;105m▀\u001b[38;2;169;143;90;48;2;216;168;102m▀\u001b[38;2;150;121;74;48;2;156;110;60m▀\u001b[38;2;146;104;62;48;2;58;33;17m▀\u001b[38;2;205;150;91;48;2;142;98;55m▀\u001b[38;2;228;168;103;48;2;157;112;66m▀\u001b[38;2;222;163;100;48;2;222;163;99m▀\u001b[38;2;221;163;100;48;2;221;163;100m▀\u001b[38;2;221;164;99;48;2;223;164;100m▀\u001b[38;2;229;168;99;48;2;215;159;94m▀\u001b[38;2;102;66;43;48;2;148;100;56m▀\u001b[38;2;98;60;45;49m▄\u001b[38;2;100;60;46m  \r\n\u001b[21C\u001b[38;2;19;0;38m▀\u001b[38;2;164;115;71;48;2;128;84;58m▀\u001b[38;2;101;68;40;48;2;196;141;78m▀\u001b[38;2;190;137;79;48;2;202;147;85m▀\u001b[38;2;186;128;72;48;2;188;131;75m▀\u001b[38;2;133;86;43;48;2;147;98;51m▀\u001b[38;2;79;49;28;48;2;52;30;18m▀\u001b[38;2;173;114;61;48;2;134;94;54m▀\u001b[38;2;121;79;42;48;2;164;118;70m▀\u001b[38;2;200;147;89;48;2;224;164;100m▀\u001b[38;2;225;166;101;48;2;221;162;98m▀\u001b[38;2;230;170;103;48;2;220;162;98m▀\u001b[38;2;177;129;77;48;2;224;166;98m▀\u001b[38;2;148;100;53;48;2;134;91;53m▀\u001b[38;2;137;88;54;48;2;42;21;28m▀\u001b[38;2;12;0;30;49m▀\u001b[0m \r\n\u001b[22C\u001b[38;2;78;40;44m▀\u001b[38;2;139;98;58;48;2;60;26;30m▀\u001b[38;2;168;123;71;48;2;148;97;51m▀\u001b[38;2;147;103;59;48;2;169;115;60m▀\u001b[38;2;119;80;43;48;2;182;127;71m▀\u001b[38;2;147;107;64;48;2;204;146;86m▀\u001b[38;2;233;173;105;48;2;213;154;91m▀\u001b[38;2;227;168;101;48;2;235;172;103m▀\u001b[38;2;220;162;99;48;2;237;173;103m▀\u001b[38;2;220;162;98;48;2;230;168;98m▀\u001b[38;2;221;163;99;48;2;219;157;92m▀\u001b[38;2;231;168;98;48;2;190;130;70m▀\u001b[38;2;139;92;55;48;2;85;46;38m▀\u001b[38;2;0;0;15;49m▀\u001b[0m  \r\n\u001b[24C\u001b[38;2;104;56;53m▀\u001b[38;2;131;84;52;48;2;0;0;29m▀\u001b[38;2;155;101;53;48;2;77;41;41m▀\u001b[38;2;174;114;60;48;2;96;56;46m▀\u001b[38;2;129;83;45;48;2;61;24;37m▀\u001b[38;2;126;87;53;49m▀\u001b[38;2;145;101;61m▀\u001b[38;2;125;83;48;48;2;26;0;26m▀\u001b[38;2;148;96;52;48;2;64;35;30m▀\u001b[38;2;135;86;49;48;2;51;22;32m▀\u001b[38;2;32;10;22;48;2;41;6;34m▀\u001b[0m   \r\n\u001b[38;2;255;248;220;48;2;26;26;46m ⚕ \u001b[38;2;255;215;0;1mkimi-k2.6\u001b[38;2;184;134;11;22m · 2.7d \u001b[0m\r\n\u001b[38;2;205;127;50m───────────────────────────────────── \r\n\u001b[38;2;255;248;220m❯\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u001b[8A\u001b[2C\u001b[0m\u001b[?2004h\u001b[?1004h"
+                  }
+                ],
+                "activeIndex": 0
+              },
+              "icon": "hermes-caduceus-wing",
+              "title": "Hermes Console"
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,22 +212,33 @@
       "hermes-console:Open Hermes Console": false
     }
   },
-  "active": "b45b9666106bbdd3",
+  "active": "c490a4f83da3a083",
   "lastOpenFiles": [
+    "src/assets/images/2026/Pasted image 20260710181456.png",
+    "CHANGELOG.md",
+    "AstroPaper-lighthouse-score.svg",
+    "src/assets/images/2026/Pasted image 20260710183136.png",
+    "src/assets/images/2026/Pasted image 20260710185757.png",
+    "src/data/blog/2026/2026-07-07 初识LangChain 02：从零搭建 LangChain 开发环境（Miniconda + Windows 详细版）.md",
+    "src/data/blog/2026/2026-08-13 如何评价 DeepSeek V4 Pro.md",
+    "src/assets/images/2026/deepseek-v4-pro/cover_wechat.png",
+    "src/assets/images/2026/deepseek-v4-pro/p05_info_card.png",
+    "scripts/gen_dsv4_assets.py",
+    "src/assets/images/2026/deepseek-v4-pro/cover_blog.png",
+    "src/assets/images/2026/deepseek-v4-pro/A_clean__modern_tech_blog_cove_2026-08-13T02-16-51.png",
+    "src/assets/images/2026/deepseek-v4-pro/p04_deepswe.png",
+    "src/assets/images/2026/deepseek-v4-pro/p03_price.png",
+    "scripts/gen_dsv4_charts.py",
+    "scripts",
+    "src/assets/images/2026/deepseek-v4-pro",
+    "src/data/blog/2026/未命名.md",
+    "src/assets/images/2026/langchain-diagrams",
+    "src/assets/images/2026/langchain-env",
+    "src/data/blog/2026/2026-07-07 初识LangChain：给AI小白的第一本说明书.md",
+    "src/data/blog/2026/2026-07-07Hermes Agent 桌面版完全指南：从安装到配置.md",
     "__unconfig_astro.config.ts",
     "README.md",
-    "src/data/blog/2026/2026-07-07 初识LangChain：给AI小白的第一本说明书.md",
     "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门17 - 用Agent设计网站.md",
-    "src/assets/images/2026/langchain/p25_img1.png",
-    "src/assets/images/2026/langchain/p24_img1.png",
-    "src/assets/images/2026/langchain/p23_img1.png",
-    "src/assets/images/2026/langchain/p22_img1.png",
-    "src/assets/images/2026/langchain/p21_img1.png",
-    "src/assets/images/2026/langchain/p20_img1.png",
-    "src/assets/images/2026/langchain/p19_img1.png",
-    "src/assets/images/2026/langchain/p18_img1.png",
-    "src/assets/images/2026/langchain/p17_img1.png",
-    "src/assets/images/2026/langchain/p16_img1.png",
     "src/assets/images/2026/langchain",
     "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门16 - 七款AI编程工具对比.md",
     "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门05 - 搭建产品原型.md",
@@ -214,7 +248,6 @@
     "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门01 - 学习地图.md",
     "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md",
     "src/data/blog/2026/2026-01-12  Go结合Gin框架开发Web.md",
-    "CHANGELOG.md",
     "ReduxToolkit.md",
     "src/data/blog/2026/2026-03-10 Bun.js 入门指南.md",
     "src/data/blog/2026/2026-04-28 会自我进化的 AI 助理Hermes Agent.md",
@@ -225,19 +258,8 @@
     "copilot/copilot-custom-prompts/Clip Web Page.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
     "copilot/copilot-custom-prompts",
-    "copilot",
-    "src/assets/images/2026",
-    "src/data/blog/2026",
-    "src/data/blog/2025/未确认 830436.crdownload",
     "未命名.canvas",
-    "未命名 1.base",
-    "未命名.base",
-    "src/components/Comments.tsx",
     "未命名 1.canvas"
   ]
 }
