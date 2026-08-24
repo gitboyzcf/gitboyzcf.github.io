@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-07-07 18:00:00
-modDatetime: 2026-08-13 10:28:31
+modDatetime: 2026-08-24 14:35:58
 title: Hermes Agent 桌面版完全指南：从安装到配置，手把手教你拥有你的第一个"数字员工"
 slug:
-featured: false
-draft: true
+featured: true
+draft: false
 tags:
   - Hermes Agent
   - AI智能体

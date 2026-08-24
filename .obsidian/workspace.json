@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5af2d1a46e9940eb",
+        "id": "0b10534c3704ed51",
         "type": "tabs",
         "children": [
           {
-            "id": "111c16ce940d9933",
+            "id": "84980a76c3949a58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/data/blog/2026/2026-08-13 如何评价 DeepSeek V4 Pro.md",
+                "file": "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门10 - AI消费场景C端.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-13 如何评价 DeepSeek V4 Pro"
+              "title": "2026-06-15 Easy-Vibe 零基础入门10 - AI消费场景C端"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "859bf4bd604a7a67",
@@ -212,15 +213,38 @@
       "hermes-console:Open Hermes Console": false
     }
   },
-  "active": "c490a4f83da3a083",
+  "active": "84980a76c3949a58",
   "lastOpenFiles": [
+    "src/data/blog/2026/2026-08-13 如何评价 DeepSeek V4 Pro.md",
+    "src/data/blog/interview/2025-06-17了解面试流程.md",
+    "src/data/blog/2026/2026-07-07Hermes Agent 桌面版完全指南：从安装到配置.md",
+    "src/data/blog/2026/2026-07-07 初识LangChain：给AI小白的第一本说明书.md",
+    "src/data/blog/2026/2026-07-07 初识LangChain 02：从零搭建 LangChain 开发环境（Miniconda + Windows 详细版）.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门17 - 用Agent设计网站.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门16 - 七款AI编程工具对比.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门15 - 写代码时遇到错误怎么办.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门14 - The Mom Test.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门13 - Jobs to Be Done.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门12 - 双钻模型.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门11 - 从哪里找点子.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门10 - AI消费场景C端.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门09 - AI行业应用场景B端.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门08 - 产品思维与方案设计.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门07 - 完整项目实战.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门06 - 接入AI能力.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门05 - 搭建产品原型.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门04 - 找到好点子.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门03 - 学会AI编程工具.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门02 - AI时代会说话就会编程.md",
+    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门01 - 学习地图.md",
+    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md",
+    "src/data/blog/2026/2026-04-28 会自我进化的 AI 助理Hermes Agent.md",
+    "src/data/blog/2026/2026-03-10 Bun.js 入门指南.md",
+    "src/data/blog/2026/2026-01-12  Go结合Gin框架开发Web.md",
     "src/assets/images/2026/Pasted image 20260710181456.png",
-    "CHANGELOG.md",
     "AstroPaper-lighthouse-score.svg",
     "src/assets/images/2026/Pasted image 20260710183136.png",
     "src/assets/images/2026/Pasted image 20260710185757.png",
-    "src/data/blog/2026/2026-07-07 初识LangChain 02：从零搭建 LangChain 开发环境（Miniconda + Windows 详细版）.md",
-    "src/data/blog/2026/2026-08-13 如何评价 DeepSeek V4 Pro.md",
     "src/assets/images/2026/deepseek-v4-pro/cover_wechat.png",
     "src/assets/images/2026/deepseek-v4-pro/p05_info_card.png",
     "scripts/gen_dsv4_assets.py",
@@ -231,33 +255,11 @@
     "scripts/gen_dsv4_charts.py",
     "scripts",
     "src/assets/images/2026/deepseek-v4-pro",
-    "src/data/blog/2026/未命名.md",
     "src/assets/images/2026/langchain-diagrams",
     "src/assets/images/2026/langchain-env",
-    "src/data/blog/2026/2026-07-07 初识LangChain：给AI小白的第一本说明书.md",
-    "src/data/blog/2026/2026-07-07Hermes Agent 桌面版完全指南：从安装到配置.md",
     "__unconfig_astro.config.ts",
-    "README.md",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门17 - 用Agent设计网站.md",
     "src/assets/images/2026/langchain",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门16 - 七款AI编程工具对比.md",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门05 - 搭建产品原型.md",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门04 - 找到好点子.md",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门03 - 学会AI编程工具.md",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门02 - AI时代会说话就会编程.md",
-    "src/data/blog/2026/2026-06-15 Easy-Vibe 零基础入门01 - 学习地图.md",
-    "src/data/blog/2026/2026-05-09 Hermes Agent Windows（脱离wsl） 完整安装教程、从安装到微信接入.md",
-    "src/data/blog/2026/2026-01-12  Go结合Gin框架开发Web.md",
-    "ReduxToolkit.md",
-    "src/data/blog/2026/2026-03-10 Bun.js 入门指南.md",
-    "src/data/blog/2026/2026-04-28 会自我进化的 AI 助理Hermes Agent.md",
-    "copilot/copilot-conversations/9.11_and_9.8,_which_is_bigger@20260313_162014.md",
-    "未命名.md",
-    "copilot/copilot-conversations/为我写一篇关于httpsbun.com的教学文章@20260310_101750.md",
     "copilot/copilot-conversations",
-    "copilot/copilot-custom-prompts/Clip Web Page.md",
-    "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot/copilot-custom-prompts",
     "未命名.canvas",
     "未命名 1.canvas"

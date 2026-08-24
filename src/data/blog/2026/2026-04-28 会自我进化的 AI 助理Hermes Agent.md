@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-04-28 16:47:50
-modDatetime: 2026-04-28 17:00:18
+modDatetime: 2026-08-24 14:35:04
 title: 2026-04-28 会自我进化的 AI 助理Hermes Agent
 slug:
-featured: false
-draft: true
+featured: true
+draft: false
 tags:
   - 模板
 description: 模板详情

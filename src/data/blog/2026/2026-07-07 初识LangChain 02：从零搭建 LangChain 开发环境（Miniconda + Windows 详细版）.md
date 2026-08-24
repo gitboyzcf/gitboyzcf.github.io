@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-07-07 18:00:00
-modDatetime: 2026-08-13 10:28:31
+modDatetime: 2026-08-24 14:35:54
 title: 初识LangChain 02：从零搭建 LangChain 开发环境（Miniconda + Windows 详细版）
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - LangChain
   - AI智能体

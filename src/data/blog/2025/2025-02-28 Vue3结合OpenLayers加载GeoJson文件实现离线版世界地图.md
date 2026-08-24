@@ -1,9 +1,9 @@
 ---
 author: boyzcf
 pubDatetime: 2025-02-28 14:45:50
-modDatetime: 2025-02-28 14:45:50
+modDatetime: 2026-08-24 14:34:56
 title: Vue3结合OpenLayers加载GeoJson文件实现离线版世界地图（中国详细数据）以及聚合点位（内部有免费GeoJson资源整合）
-slug: 
+slug:
 featured: true
 draft: false
 tags:
@@ -12,9 +12,7 @@ tags:
   - Vue
   - JavaScript
   - OpenLayers
-description:
-  OpenLayers 开源的处理二维地图的JavaScript库 的，开发旨在进一步利用各种地理信息。
-  OpenLayers 可让您轻松地在任何网页中放置动态地图。它可以显示从任何来源加载的地图图块、矢量数据和标记。（就是更方便的加载、配置网页地图）
+description: OpenLayers 开源的处理二维地图的JavaScript库 的，开发旨在进一步利用各种地理信息。 OpenLayers 可让您轻松地在任何网页中放置动态地图。它可以显示从任何来源加载的地图图块、矢量数据和标记。（就是更方便的加载、配置网页地图）
 ---
 
 

@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-06-15 12:26:04
-modDatetime: 2026-06-15 12:26:04
+modDatetime: 2026-08-24 14:35:44
 title: Easy-Vibe 零基础入门13：Jobs to Be Done - 找到用户真正想完成的事
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - AI编程
   - Vibe Coding

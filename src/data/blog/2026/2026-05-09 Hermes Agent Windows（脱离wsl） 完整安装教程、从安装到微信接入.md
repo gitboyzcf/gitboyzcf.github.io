@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-05-09 11:51:34
-modDatetime: 2026-05-12 15:19:58
+modDatetime: 2026-08-24 14:35:07
 title: Hermes Agent Windows 完整安装教程：从安装到微信接入
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - 模板
 description: 模板详情

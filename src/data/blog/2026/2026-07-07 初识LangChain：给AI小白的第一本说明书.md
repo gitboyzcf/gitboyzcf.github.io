@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-07-07 18:00:00
-modDatetime: 2026-07-07 20:30:00
+modDatetime: 2026-08-24 14:35:55
 title: 初识LangChain：给AI小白的第一本说明书
 slug:
-featured: false
-draft: true
+featured: true
+draft: false
 tags:
   - LangChain
   - AI智能体

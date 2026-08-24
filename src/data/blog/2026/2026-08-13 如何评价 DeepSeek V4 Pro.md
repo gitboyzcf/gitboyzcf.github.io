@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-08-13 11:00:00
-modDatetime: 2026-08-13 11:00:00
+modDatetime: 2026-08-24 14:36:08
 title: 如何评价 DeepSeek V4 Pro
 slug:
-featured: false
-draft: true
+featured: true
+draft: false
 tags:
   - AI
   - DeepSeek

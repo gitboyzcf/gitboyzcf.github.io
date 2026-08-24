@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-06-15 12:26:04
-modDatetime: 2026-06-15 12:26:04
+modDatetime: 2026-08-24 14:35:39
 title: Easy-Vibe 零基础入门10：AI消费场景灵感参考（C端）- 16个场景方向
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - AI编程
   - Vibe Coding

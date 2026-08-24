@@ -1,11 +1,11 @@
 ---
 author: boyzcf
 pubDatetime: 2026-06-15 12:26:04
-modDatetime: 2026-06-24 09:22:37
+modDatetime: 2026-08-24 14:35:52
 title: Easy-Vibe 零基础入门17：用设计和编程Agent设计网站 - 从Logo到上线
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - AI编程
   - Vibe Coding
